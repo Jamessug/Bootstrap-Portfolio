@@ -1,0 +1,14 @@
+/* row instead of bootstrap default column */
+.navbar-nav {
+    flex-direction: row;
+}
+
+/* spacing between each nav item */
+.nav-item {
+    padding: 10px;
+    color: white;
+}
+
+nav h1 {
+    color: white;
+}
