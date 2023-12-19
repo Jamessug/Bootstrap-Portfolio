@@ -12,3 +12,22 @@
 nav h1 {
     color: white;
 }
+
+/* adding background image to bootstrap jumbotron and sized it */
+.jumbotron {
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 400px; 
+    padding: 60px; 
+    
+}
+
+/* jumbotron heading added myself, getting h1 to stay bottom right */
+.jumbo-heading {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #343a40;
+    color: white;
+}
